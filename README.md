@@ -14,7 +14,7 @@ EXCEL动态导出说明文档
             //构造函数赋值
             GenerateExcelReport.HandleReportConfig(entity);
             //输出Excel
-            GenerateExcelReport.GenerateExcel(list);
+            string excelPath = GenerateExcelReport.GenerateExcel(list);
 
             Console.ReadKey();
         }
